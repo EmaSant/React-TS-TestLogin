@@ -109,7 +109,7 @@ function Login() {
                 />
                 <Form.Control.Feedback type="invalid">
                   Password must be at least 8 characters long and contain at
-                  least one letter and one digit.
+                  least one letter and one digit and an UpperCase letter.
                 </Form.Control.Feedback>
               </Form.Group>
               {error && <p style={{ color: "red" }}>{error}</p>}
